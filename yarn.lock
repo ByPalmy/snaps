@@ -2838,10 +2838,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@endo/env-options@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@endo/env-options@npm:1.1.0"
-  checksum: 799ec765791ed69dd099a998fedb9a6a415236ce45748b06f097973542b133e3c3a296f61f0404a79119c6ae92a3f7fbc12d2cc10b1b07901bc64d4ae4d3b6ee
+"@endo/env-options@npm:^1.1.2":
+  version: 1.1.5
+  resolution: "@endo/env-options@npm:1.1.5"
+  checksum: ce8869cf089025c8e4c28e58763ad12e03cd34384025beeaa5642a12e8645c31959221eaf7aabe7a84edc2bc7a909ddffa6343c2578901a67138dbb079f7a0ba
   languageName: node
   linkType: hard
 
@@ -3826,14 +3826,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/webpack@file:./lavamoat-webpack-0.0.1-beta.0.tgz::locator=%40metamask%2Fsnaps-execution-environments%40workspace%3Apackages%2Fsnaps-execution-environments":
-  version: 0.0.1-beta.0
-  resolution: "@lavamoat/webpack@file:./lavamoat-webpack-0.0.1-beta.0.tgz::locator=%40metamask%2Fsnaps-execution-environments%40workspace%3Apackages%2Fsnaps-execution-environments"
+"@lavamoat/webpack@npm:0.3.0-beta.0":
+  version: 0.3.0-beta.0
+  resolution: "@lavamoat/webpack@npm:0.3.0-beta.0"
   dependencies:
-    lavamoat-core: ^15.0.0
+    "@lavamoat/aa": ^4.2.0
+    browser-resolve: 2.0.0
+    json-stable-stringify: 1.1.1
+    lavamoat-core: ^15.3.0
+    ses: 1.4.0
   peerDependencies:
     webpack: ^5.80.2
-  checksum: 742bb94d9b8d060a283b6462e805a09ab2d14dbf28fbcc6b91e3c3fc1cf4863d66c210e64081700a8eb4886623c95380630289480898307077373e2c78459c9f
+  checksum: c0836b0a58d41227dc9123e5ea26d4efd65a6b0dd33569f65ce8505df24b3de19c65133eccf397efd6a7e5a2379527afd00b2416d1f22250312af6f8009a3c95
   languageName: node
   linkType: hard
 
@@ -5700,7 +5704,7 @@ __metadata:
     "@lavamoat/allow-scripts": ^3.0.4
     "@lavamoat/lavapack": ^6.1.1
     "@lavamoat/lavatube": ^1.0.0
-    "@lavamoat/webpack": ./lavamoat-webpack-0.0.1-beta.0.tgz
+    "@lavamoat/webpack": 0.3.0-beta.0
     "@metamask/auto-changelog": ^3.4.4
     "@metamask/eslint-config": ^12.1.0
     "@metamask/eslint-config-jest": ^12.1.0
@@ -16590,7 +16594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lavamoat-core@npm:^15.0.0, lavamoat-core@npm:^15.2.0":
+"lavamoat-core@npm:^15.2.0, lavamoat-core@npm:^15.3.0":
   version: 15.4.0
   resolution: "lavamoat-core@npm:15.4.0"
   dependencies:
@@ -20700,12 +20704,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ses@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "ses@npm:1.1.0"
+"ses@npm:1.4.0, ses@npm:^1.1.0":
+  version: 1.4.0
+  resolution: "ses@npm:1.4.0"
   dependencies:
-    "@endo/env-options": ^1.1.0
-  checksum: 20f69f610febba3c53144ae2cf5cb4c932212c17994fe84a2864634a24104675a4ee2498482b74f8a468e0e25d92fd104c8b45b1ab2c7029255221797db979be
+    "@endo/env-options": ^1.1.2
+  checksum: a0c9ac1a3b8ba9d20f2afbf8bf193c6ff08088e7ae429487c1eeeafc1ec14a58882f1ed3248aa17315c53fff78ba659157cd5bccedce91207aa7767d87a6ec53
   languageName: node
   linkType: hard
 
